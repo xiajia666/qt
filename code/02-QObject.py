@@ -19,6 +19,9 @@ class Window(QWidget):
         label2.setObjectName("notice")
         label2.setProperty("notice_level", "normal")
 
+        label3 = QLabel(self)
+        label3.setText("xiajia333")
+
 if __name__ == '__main__':
     app = QApplication(sys.argv)
     window = Window()
